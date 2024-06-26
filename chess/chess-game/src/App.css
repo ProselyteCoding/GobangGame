@@ -1,0 +1,49 @@
+.head {
+    justify-content: center;
+    display: flex;
+    border-bottom: solid 2px black;
+    padding-bottom: 20px;
+    color: darkcyan;
+}
+.box {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    vertical-align: middle;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.board {
+    margin-top: 80px;
+}
+.condition {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.turn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.notice {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+.boundary {
+    display: inline-block;
+    border: 2px black solid;
+    width: 300px;
+}
