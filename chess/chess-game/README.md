@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# SimpleChessForPractice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 目录
 
-## Available Scripts
+- [安装步骤](#安装步骤)
+- [功能](#功能)
+- [不足](#不足)
+- [预计改进](#预计改进)
+- [版本控制](#版本控制)
+- [作者](#作者)
 
-In the project directory, you can run:
 
-### `npm start`
+### 安装步骤
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+复制到本地，将chess目录用终端打开，输入npm install，下载成功后再输入npm start即可运行。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 功能
 
-### `npm test`
+简单的井字棋玩法，可提示当前回合轮到谁和状态。
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 不足
 
-### `npm run build`
+提示功能（Notice组件）存在问题，不知道如何实时传值、渲染状态
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 预计改进
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+·更正Notice功能
+·实现记忆功能
+·在此基础上设计其他简单棋类游戏如五子棋、围棋、国际象棋等
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 版本控制
 
-### `npm run eject`
+该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 作者
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+王一帆
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 版权说明
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
